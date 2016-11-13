@@ -1,0 +1,37 @@
+{
+  "name": "biblegateway-api",
+  "version": "0.0.0",
+  "description": "A simple module to create a restful api that fetches bible verses from biblegateway.com. Use this for personal use and do not overload their servers please.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "query-string": "^4.2.3",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toffebjorkskog/node-biblegateway-api.git"
+  },
+  "keywords": [
+    "bible",
+    "api",
+    "rest"
+  ],
+  "author": "Christoffer Björkskog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toffebjorkskog/node-biblegateway-api/issues"
+  },
+  "homepage": "https://github.com/toffebjorkskog/node-biblegateway-api#readme"
+}
